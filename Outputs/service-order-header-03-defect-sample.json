@@ -1,0 +1,19 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-service-order-reads/SAP_API_Caller/caller.go#L72",
+	"function": "sap-api-integrations-service-order-reads/SAP_API_Caller.(*SAPAPICaller).Header",
+	"level": "INFO",
+	"message": [
+		{
+			"ServiceOrder": "4000000000",
+			"SrvcDocTypeDefectCodeProfType": "A",
+			"ServiceDefectSequence": 1,
+			"SrvcDocTypeDefectCodeProfile": "",
+			"ServiceDefectCodeCatalog": "",
+			"ServiceDefectCodeGroup": "",
+			"ServiceDefectCode": "",
+			"ServiceDefectSchema": "",
+			"ServiceDefectCategory": ""
+		}
+	],
+	"time": "2021-12-19T14:16:35.792992+09:00"
+}

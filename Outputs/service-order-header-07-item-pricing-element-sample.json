@@ -1,0 +1,74 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-service-order-reads/SAP_API_Caller/caller.go#L100",
+	"function": "sap-api-integrations-service-order-reads/SAP_API_Caller.(*SAPAPICaller).Header",
+	"level": "INFO",
+	"message": [
+		{
+			"ServiceOrder": "4000000000",
+			"ServiceOrderItem": "10",
+			"PricingProcedureStep": "730",
+			"PricingProcedureCounter": "1",
+			"ConditionType": "DCD2",
+			"ConditionRateValue": "0.000000000",
+			"ConditionCurrency": "",
+			"ConditionQuantity": "0",
+			"ConditionQuantityUnit": ""
+		},
+		{
+			"ServiceOrder": "4000000000",
+			"ServiceOrderItem": "10",
+			"PricingProcedureStep": "65",
+			"PricingProcedureCounter": "1",
+			"ConditionType": "DPD0",
+			"ConditionRateValue": "0.000000000",
+			"ConditionCurrency": "USD",
+			"ConditionQuantity": "1",
+			"ConditionQuantityUnit": "HR"
+		},
+		{
+			"ServiceOrder": "4000000000",
+			"ServiceOrderItem": "10",
+			"PricingProcedureStep": "720",
+			"PricingProcedureCounter": "1",
+			"ConditionType": "YZWR",
+			"ConditionRateValue": "0.000000000",
+			"ConditionCurrency": "USD",
+			"ConditionQuantity": "0",
+			"ConditionQuantityUnit": ""
+		},
+		{
+			"ServiceOrder": "4000000000",
+			"ServiceOrderItem": "10",
+			"PricingProcedureStep": "20",
+			"PricingProcedureCounter": "1",
+			"ConditionType": "PPR0",
+			"ConditionRateValue": "35.000000000",
+			"ConditionCurrency": "USD",
+			"ConditionQuantity": "1",
+			"ConditionQuantityUnit": "HR"
+		},
+		{
+			"ServiceOrder": "4000000000",
+			"ServiceOrderItem": "10",
+			"PricingProcedureStep": "750",
+			"PricingProcedureCounter": "1",
+			"ConditionType": "UTXJ",
+			"ConditionRateValue": "100.000000000",
+			"ConditionCurrency": "",
+			"ConditionQuantity": "0",
+			"ConditionQuantityUnit": ""
+		},
+		{
+			"ServiceOrder": "4000000000",
+			"ServiceOrderItem": "10",
+			"PricingProcedureStep": "751",
+			"PricingProcedureCounter": "1",
+			"ConditionType": "JR1",
+			"ConditionRateValue": "4.000000000",
+			"ConditionCurrency": "",
+			"ConditionQuantity": "0",
+			"ConditionQuantityUnit": ""
+		}
+	],
+	"time": "2021-12-19T14:16:38.8084+09:00"
+}

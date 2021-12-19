@@ -1,0 +1,13 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-service-order-reads/SAP_API_Caller/caller.go#L79",
+	"function": "sap-api-integrations-service-order-reads/SAP_API_Caller.(*SAPAPICaller).Header",
+	"level": "INFO",
+	"message": [
+		{
+			"ServiceOrder": "4000000000",
+			"PersonResponsible": "9980001941",
+			"CustMgmtPartnerIsMainPartner": true
+		}
+	],
+	"time": "2021-12-19T14:16:36.350705+09:00"
+}
