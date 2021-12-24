@@ -49,7 +49,7 @@ type Header struct {
 	ToHeaderDefect                string      `json:"to_Defect"`
 	ToHeaderPersonResponsible     string      `json:"to_PersonResponsible"`
 	ToHeaderReferenceObject       string      `json:"to_ReferenceObject"`
-    ToItem                        string      `json:"to_Item"`	
+    ToItem                        string      `json:"to_Item"`
 }
 
 type Item struct {
