@@ -25,6 +25,7 @@ sap-api-integrations-service-order-reads が対応する APIサービス は、�
 sap-api-integrations-service-order-reads には、次の API をコールするためのリソースが含まれています。  
 
 * A_SalesOrder（サービス指図 - ヘッダ）※サービス指図の詳細データを取得するために、ToHeaderConfirmation、ToHeaderDefect、ToHeaderPersonResponsible、ToHeaderReferenceObject、ToItem、ToItemPricingElementと合わせて利用されます。
+* A_ServiceOrderItem（サービス指図 - 明細）※受注明細の詳細データを取得するために、ToItemPricingElement、と合わせて利用されます。
 * ToHeaderConfirmation（サービス指図 - 確認）
 * ToHeaderDefect（サービス指図 - 不良）
 * ToHeaderPersonResponsible（サービス指図 - 責任者）
@@ -32,7 +33,6 @@ sap-api-integrations-service-order-reads には、次の API をコールする�
 * ToItem（サービス指図 - 明細）
 * ToItemPricingElement（サービス指図 - 明細価格条件）
 * A_ServiceOrderItem（サービス指図 - 明細）※受注明細の詳細データを取得するために、ToItemPricingElement、と合わせて利用されます。
-* ToItemPricingElement（サービス指図 - 明細価格条件）
 
 ## API への 値入力条件 の 初期値
 sap-api-integrations-service-order-reads において、API への値入力条件の初期値は、入力ファイルレイアウトの種別毎に、次の通りとなっています。  
