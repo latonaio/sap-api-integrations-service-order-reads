@@ -100,9 +100,9 @@ func (c *SAPAPICaller) AsyncGetServiceOrder(serviceOrder, serviceOrderItem strin
 }
 ```
 ## Output  
-本マイクロサービスでは、[golang-logging-library](https://github.com/latonaio/golang-logging-library) により、以下のようなデータがJSON形式で出力されます。  
+本マイクロサービスでは、[golang-logging-library-for-sap](https://github.com/latonaio/golang-logging-library-for-sap) により、以下のようなデータがJSON形式で出力されます。  
 以下の sample.json の例は、SAP サービス指図 の ヘッダデータ が取得された結果の JSON の例です。  
-以下の項目のうち、"ServiceOrder" ～ "to_Item" は、/SAP_API_Output_Formatter/type.go 内 の Type Header {} による出力結果です。"cursor" ～ "time"は、golang-logging-library による 定型フォーマットの出力結果です。  
+以下の項目のうち、"ServiceOrder" ～ "to_Item" は、/SAP_API_Output_Formatter/type.go 内 の Type Header {} による出力結果です。"cursor" ～ "time"は、golang-logging-library-for-sap による 定型フォーマットの出力結果です。  
 
 ```
 {
@@ -118,9 +118,9 @@ func (c *SAPAPICaller) AsyncGetServiceOrder(serviceOrder, serviceOrderItem strin
 			"ServiceObjectType": "BUS2000116",
 			"Language": "EN",
 			"ServiceDocumentPriority": "0",
-			"RequestedServiceStartDateTime": "/Date(1616976000000+0000)/",
-			"RequestedServiceEndDateTime": "/Date(1617235200000+0000)/",
-			"ServiceDocChangedDateTime": "/Date(1617022513000+0000)/",
+			"RequestedServiceStartDateTime": "",
+			"RequestedServiceEndDateTime": "",
+			"ServiceDocChangedDateTime": "",
 			"PurchaseOrderByCustomer": "",
 			"CustomerPurchaseOrderDate": "",
 			"ServiceOrderIsReleased": "",
@@ -152,7 +152,6 @@ func (c *SAPAPICaller) AsyncGetServiceOrder(serviceOrder, serviceOrderItem strin
 			"to_Item": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SERVICE_ORDER_SRV/A_ServiceOrder('4000000000')/to_Item"
 		}
 	],
-	"time": "2021-12-19T14:16:34.713317+09:00"
+	"time": "2022-01-28T18:26:20+09:00"
 }
-
 ```

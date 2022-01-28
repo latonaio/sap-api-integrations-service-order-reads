@@ -11,9 +11,9 @@
 			"ServiceObjectType": "BUS2000116",
 			"Language": "EN",
 			"ServiceDocumentPriority": "0",
-			"RequestedServiceStartDateTime": "/Date(1616976000000+0000)/",
-			"RequestedServiceEndDateTime": "/Date(1617235200000+0000)/",
-			"ServiceDocChangedDateTime": "/Date(1617022513000+0000)/",
+			"RequestedServiceStartDateTime": "",
+			"RequestedServiceEndDateTime": "",
+			"ServiceDocChangedDateTime": "",
 			"PurchaseOrderByCustomer": "",
 			"CustomerPurchaseOrderDate": "",
 			"ServiceOrderIsReleased": "",
@@ -45,5 +45,5 @@
 			"to_Item": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SERVICE_ORDER_SRV/A_ServiceOrder('4000000000')/to_Item"
 		}
 	],
-	"time": "2021-12-19T14:16:34.713317+09:00"
+	"time": "2022-01-28T18:26:20+09:00"
 }

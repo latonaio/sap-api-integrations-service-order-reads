@@ -38,8 +38,8 @@
 			"ParentServiceOrderItem": "0",
 			"PlannedServiceStartDateTime": "",
 			"PlannedServiceEndDateTime": "",
-			"RequestedServiceStartDateTime": "/Date(1616976000000+0000)/",
-			"RequestedServiceEndDateTime": "/Date(1617235200000+0000)/",
+			"RequestedServiceStartDateTime": "",
+			"RequestedServiceEndDateTime": "",
 			"ActualServiceDuration": "0.00",
 			"ActualServiceDurationUnit": "",
 			"ReferenceServiceOrderItem": "",
@@ -48,5 +48,5 @@
 			"to_PricingElement": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SERVICE_ORDER_SRV/A_ServiceOrderItem(ServiceOrder='4000000000',ServiceOrderItem='10')/to_PricingElement"
 		}
 	],
-	"time": "2021-12-19T14:43:33.665924+09:00"
+	"time": "2022-01-28T18:25:09+09:00"
 }
